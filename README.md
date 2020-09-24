@@ -169,7 +169,7 @@ python ./git_gud.py set_readonly -o=$ORG $ASS
 
 ```
 cd ~/.ssh/
-wget "https://drive.google.com/uc?export=download&id=162VYNkMEBuKrc7GqEnToDpJMhUjOedBR" -O ~/.ssh/travislog_rsa
+wget SSH_KEY -O ~/.ssh/travislog_rsa
 chmod 600 ~/.ssh/travislog_rsa
 ssh root@199.60.17.67 -i ~/.ssh/travislog_rsa
 # The following steps are run on the travis-log machine.
